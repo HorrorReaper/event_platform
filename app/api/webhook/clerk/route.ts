@@ -75,7 +75,7 @@ export async function POST(req: Request) {
         }
       })
     }
-
+    console.log("------------------------------------------------Neuer User created-------------------------------------------------------------------")
     return NextResponse.json({ message: 'OK', user: newUser })
   }
 
